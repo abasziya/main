@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sib-movie</title>
+   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js" integrity="sha512-n/4gHW3atM3QqRcbCn6ewmpxcLAHGaDjpEBu4xZd47N0W2oQ+6q7oc3PXstrJYXcbNU1OHdQ1T7pAP+gi5Yu8g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="bootstrap.js"></script>
+  
+    
+    <link rel="stylesheet" type="text/css" href="bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="action.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body dir="rtl">
+    <nav class="navbar navbar-expand-lg  col-md-12">
+        <div class="container-fluid">
+
+          <div right-side> <i class="bi bi-list" width="20px"></i>
+          
+          <a class="navbar-brand" href="#"style="color:#f1f1f1">sib-movie</a>
+          </div>
+            <form class="d-flex">
+                <div class="info-search">  
+                    <i class="bi bi-search primery-icon"></i>
+                  <input  class="form-control me-2" type="search" placeholder="فیلم مورد نظرتان را جستجو کنید             " aria-label="Search" size="40px">
+                    
+                 </div>
+            </form>
+             
+        </div>
+    </nav>
+
+
+<div class="container-fluid">
+  <h2 class="h2 mt-4-pull-right xs-12">
+  محبوب ترین فیلم های هفته
+  <i class="fas fa-fire"></i> 
+</h2>
+   <section class="movie-scroll-1">
+ 
+        <div  class=" item-group">
+               
+        <div class="scroll-item ">   <img src="./images/top-gun-maverick-2022.jpg"></div>
+        <div class="scroll-item ">   <img src="/images/supernatural.jpg"></div>
+           <div class="scroll-item ">   <img src="./images/supernatural-sm.jpg"></div>
+         <div class="scroll-item ">   <img src="./images/sniper-the-white-raven-2022-sm.jpg"></div>
+         <div class="scroll-item ">   <img src="./images/she-hulk-attorney-at-law.jpg"></div>
+         <div class="scroll-item">   <img src="./images/see.jpg"></div>
+         <div class="scroll-item">   <img src="./images/samaritan-2022-sm (1).jpg"></div>
+         <div class="scroll-item">   <img src="./images/redbad-2018-sm.jpg"></div>
+        <div class="scroll-item">   <img src="./images/nope-2022-sm.jpg"></div>
+       </div>
+
+    </section>
+    <h2 class="h2 mt-4-pull-right xs-12">
+      محبوب ترین سریال های هفته 
+      <i class="fas fa-fire"></i> 
+    </h2>
+   <section class="movie-scroll-1">
+ 
+        <div  class=" item-group">
+            
+        <div class="scroll-item ">   <img src="./images/motherland-fort-salem-sm.jpg"></div>
+        <div class="scroll-item ">   <img src="./images/motherland-fort-salem-sm.jpg"></div>
+           <div class="scroll-item ">   <img src="./images/minions-the-rise-of-gru-2022.jpg"></div>
+         <div class="scroll-item ">   <img src="./images/me-time-2022.jpg"></div>
+         <div class ="scroll-item">   <img src="./images/house-of-the-dragon.jpg"></div>
+         <div class="scroll-item">   <img src="./images/day-shift-2022.jpg"></div>
+         <div class="scroll-item">   <img src="./images/da-vincis-demons.jpg"></div>
+         <div class="scroll-item">   <img src="./images/animal-kingdom-sm.jpg"></div>
+        <div class="scroll-item">   <img src="./images/underworld-blood-wars-2016.jpg"></div>
+       </div>
+
+    </section>
+
+   <section class="searching" >
+      <fieldset>
+       <form class="pro-search  col-md-12 " >
+        <h3 style="color: #f1f1f1;">><i class=" bi bi-film" style="color: #f1f1f1; font-size: 30px;"></i>   جستجوی پیشرفته</h3>
+        <select class="form-select col-md-4 col-lg-4 col-xs-4" aria-label="Default select example">
+            <option class="select-option"selected>ژانر</option>
+            <option value="1">کمدی</option>
+            <option value="2">ترسناک</option>
+            <option value="3">اکشن</option>
+          </select>
+          <select class="form-select col-md-4 col-lg-4 col-xs-4" aria-label="Default select example">
+            <option selected>از سال</option>
+            <option value="1">۱۹۹۰</option>
+            <option value="2">۱۹۹۲</option>
+            <option value="3">۱۹۹۳</option>
+          </select>
+          <select class="form-select col-md-4 col-lg-4 col-xs-4" aria-label="Default select example">
+            <option selected>تا سال</option>
+            <option value="1">۲۰۲۲</option>
+            <option value="2">۲۰۲۱</option>
+            <option value="3">۲۰۲۰</option>
+          </select>
+          <select class="form-select col-md-4 col-lg-4 col-xs-4" aria-label="Default select example">
+            <option selected>کشور</option>
+            <option value="1">افریقا</option>
+            <option value="2">امریکا</option>
+            <option value="3">ایتالیا</option>
+          </select>
+          <select class="form-select col-md-4 col-lg-4 col-xs-4" aria-label="Default select example">
+            <option selected>  IMDBامتیاز</option>
+            <option value="1">7</option>
+            <option value="2">8</option>
+            <option value="3">6</option>
+          </select>
+          <select class="form-select col-md-4 col-lg-4 col-xs-4" aria-label="Default select example">
+            <option selected>دسته بندی</option>
+            <option value="1">فیلم</option>
+            <option value="2">سریال</option>
+            <option value="3">انیمه</option>
+
+          </select>
+          <input class="col-md-1" type="radio" id="option" value="option" >
+         <label style="color: #f1f1f1;" for="option" > دوبله فارسی</label>
+
+         <input  class="col-md-2  btn btn-primery"type="submit" id="search" value="جستجو" style="float: left; background-color:#2B5278; color: #f1f1f1;">
+          
+
+
+
+
+       </form>
+
+    </fieldset>
+ </section>
+<section>
+
+    <h1 class="col-md-8 post-titr-right" style="display: inline-block ;
+    text-align: center;"> سیب فیلم, جدید ترین فیلم ها</h1>
+    
+    <h1 class="col-md-3 post-titr-left"style="display: inline-block;"> جدید ترین سریال ها</h1>
+    <article style="position: relative;" class="col-md-8 mein-contant" >
+        
+    
+      <div class="post col-md-10">
+         <img src="./images/raised-by-wolves.jpg">
+          <div class="post-titr col-md-12"> <a href="#"><h2 style="font-size: medium; display: inline;"> دانلود فیلم Anjaam Pathiraa 2020</h2></a> 
+            <span class="raiting "> not rated</span>
+            <ul class="item-genre">
+                <li><a href="#">
+         معمایی                        </a></li>
+                    <li><a href="#">
+         دلهره آور                        </a></li>
+                    <li><a href="#">
+          جنایی                        </a></li>
+            </ul>
+
+            </div>
+            <div class="film-image"> <img src="./images/redbad-2018-sm.jpg"></div>
+            <div class="id-parent">
+                
+                <ul class="item-details">
+                                            <li>
+                            <b>مدت زمان: </b>
+                            <span>2  ساعت و 24  دقیقه</span>
+                        </li>
+                                            <li>
+                        <b>کشور: </b>
+                                                    <a class="permalink ml-05" href="#">
+                                هند                            </a>
+                                                </li>
+                    <li>
+                        <b>هنرپیشگان: </b>
+                                                    <a class="permalink ml-05" href="#">
+                                Sharafudheen                            </a>
+                                                        <a class="permalink ml-05" href="#">
+                                Unnimaya Prasad                            </a>
+                                                        <a class="permalink ml-05" href="#">
+                                Jinu Joseph                            </a>
+                                            </li></ul>
+           
+
+                        <div class="extra-info">
+                         <p class=" success " >
+                            <i class="fas fa-check"></i>
+                                دوبله فارسی
+                                </p>
+                         <p class=" error" >
+                                <i class="fas fa-times"></i>
+                                زیرنویس چسبیده
+                                </p>
+                        </div>                             
+            </div>
+            
+
+         <div class="foter-post">
+            <p class="summary">
+                <b>خلاصه داستان: </b>
+                دانلود فیلم Anjaam Pathiraa 2020. گروهی از کارآگاهان پلیس با همکاری یک روان‌شناس متخصص در زمینه جرم‌شناسی، در صدد کشف هویت قاتلی برمی‌آیند که از تاکتیک‌های بی‌رحمانه برای به قتل رساندن قربانیان خود استفاده می‌کند و. </p>
+         </div>
+       </div>
+
+
+
+
+    </article>
+    <article style="position: relative;" class="col-md-8 mein-contant" >
+      
+    
+        <div class="post col-md-10">
+           <img src="./images/stranger-things.jpg">
+            <div class="post-titr col-md-12"> <a href="#"><h2 style="font-size: medium; display: inline;"> دانلود فیلم Anjaam Pathiraa 2020</h2></a> 
+              <span class="raiting "> not rated</span>
+              <ul class="item-genre">
+                  <li><a href="#">
+           معمایی                        </a></li>
+                      <li><a href="#">
+           دلهره آور                        </a></li>
+                      <li><a href="#">
+            جنایی                        </a></li>
+              </ul>
+  
+              </div>
+              <div class="film-image"> <img src="./images/the-originals.jpg"></div>
+              <div class="id-parent">
+                  
+                  <ul class="item-details">
+                                              <li>
+                              <b>مدت زمان: </b>
+                              <span>2  ساعت و 24  دقیقه</span>
+                          </li>
+                                              <li>
+                          <b>کشور: </b>
+                                                      <a class="permalink ml-05" href="#">
+                                  هند                            </a>
+                                                  </li>
+                      <li>
+                          <b>هنرپیشگان: </b>
+                                                      <a class="permalink ml-05" href="#">
+                                  Sharafudheen                            </a>
+                                                          <a class="permalink ml-05" href="#">
+                                  Unnimaya Prasad                            </a>
+                                                          <a class="permalink ml-05" href="#">
+                                  Jinu Joseph                            </a>
+                                              </li></ul>
+             
+  
+                          <div class="extra-info">
+                           <p class=" success " >
+                              <i class="fas fa-check"></i>
+                                  دوبله فارسی
+                                  </p>
+                           <p class=" error" >
+                                  <i class="fas fa-times"></i>
+                                  زیرنویس چسبیده
+                                  </p>
+                          </div>                             
+              </div>
+              
+  
+           <div class="foter-post">
+              <p class="summary">
+                  <b>خلاصه داستان: </b>
+                  دانلود فیلم Anjaam Pathiraa 2020. گروهی از کارآگاهان پلیس با همکاری یک روان‌شناس متخصص در زمینه جرم‌شناسی، در صدد کشف هویت قاتلی برمی‌آیند که از تاکتیک‌های بی‌رحمانه برای به قتل رساندن قربانیان خود استفاده می‌کند و. </p>
+           </div>
+         </div>
+  
+  
+  
+  
+      </article>
+      <article style="position: relative;" class="col-md-8 mein-contant" >
+        
+    
+        <div class="post col-md-10">
+           <img src="./images/the-time-travelers-wife.jpg">
+            <div class="post-titr col-md-12"> <a href="#"><h2 style="font-size: medium; display: inline;"> دانلود فیلم Anjaam Pathiraa 2020</h2></a> 
+              <span class="raiting "> not rated</span>
+              <ul class="item-genre">
+                  <li><a href="#">
+           معمایی                        </a></li>
+                      <li><a href="#">
+           دلهره آور                        </a></li>
+                      <li><a href="#">
+            جنایی                        </a></li>
+              </ul>
+  
+              </div>
+              <div class="film-image"> <img src="/images/the-umbrella-academy.jpg"></div>
+              <div class="id-parent">
+                  
+                  <ul class="item-details">
+                                              <li>
+                              <b>مدت زمان: </b>
+                              <span>2  ساعت و 24  دقیقه</span>
+                          </li>
+                                              <li>
+                          <b>کشور: </b>
+                                                      <a class="permalink ml-05" href="#">
+                                  هند                            </a>
+                                                  </li>
+                      <li>
+                          <b>هنرپیشگان: </b>
+                                                      <a class="permalink ml-05" href="#">
+                                  Sharafudheen                            </a>
+                                                          <a class="permalink ml-05" href="#">
+                                  Unnimaya Prasad                            </a>
+                                                          <a class="permalink ml-05" href="#">
+                                  Jinu Joseph                            </a>
+                                              </li></ul>
+             
+  
+                          <div class="extra-info">
+                           <p class=" success " >
+                              <i class="fas fa-check"></i>
+                                  دوبله فارسی
+                                  </p>
+                           <p class=" error" >
+                                  <i class="fas fa-times"></i>
+                                  زیرنویس چسبیده
+                                  </p>
+                          </div>                             
+              </div>
+              
+  
+           <div class="foter-post">
+              <p class="summary">
+                  <b>خلاصه داستان: </b>
+                  دانلود فیلم Anjaam Pathiraa 2020. گروهی از کارآگاهان پلیس با همکاری یک روان‌شناس متخصص در زمینه جرم‌شناسی، در صدد کشف هویت قاتلی برمی‌آیند که از تاکتیک‌های بی‌رحمانه برای به قتل رساندن قربانیان خود استفاده می‌کند و. </p>
+           </div>
+         </div>
+  
+  
+  
+  
+      </article>
+      <article style="position: relative;" class="col-md-8 mein-contant" >
+        
+    
+        <div class="post col-md-10">
+           <img src="./images/thirst-2009.jpg">
+            <div class="post-titr col-md-12"> <a href="#"><h2 style="font-size: medium; display: inline;"> دانلود فیلم Anjaam Pathiraa 2020</h2></a> 
+              <span class="raiting "> not rated</span>
+              <ul class="item-genre">
+                  <li><a href="#">
+           معمایی                        </a></li>
+                      <li><a href="#">
+           دلهره آور                        </a></li>
+                      <li><a href="#">
+            جنایی                        </a></li>
+              </ul>
+  
+              </div>
+              <div class="film-image"> <img src="./images/liar-liar-1997.jpg"></div>
+              <div class="id-parent">
+                  
+                  <ul class="item-details">
+                                              <li>
+                              <b>مدت زمان: </b>
+                              <span>2  ساعت و 24  دقیقه</span>
+                          </li>
+                                              <li>
+                          <b>کشور: </b>
+                                                      <a class="permalink ml-05" href="#">
+                                  هند                            </a>
+                                                  </li>
+                      <li>
+                          <b>هنرپیشگان: </b>
+                                                      <a class="permalink ml-05" href="#">
+                                  Sharafudheen                            </a>
+                                                          <a class="permalink ml-05" href="#">
+                                  Unnimaya Prasad                            </a>
+                                                          <a class="permalink ml-05" href="#">
+                                  Jinu Joseph                            </a>
+                                              </li></ul>
+             
+  
+                          <div class="extra-info">
+                           <p class=" success " >
+                              <i class="fas fa-check"></i>
+                                  دوبله فارسی
+                                  </p>
+                           <p class=" error" >
+                                  <i class="fas fa-times"></i>
+                                  زیرنویس چسبیده
+                                  </p>
+                          </div>                             
+              </div>
+              
+  
+           <div class="foter-post">
+              <p class="summary">
+                  <b>خلاصه داستان: </b>
+                  دانلود فیلم Anjaam Pathiraa 2020. گروهی از کارآگاهان پلیس با همکاری یک روان‌شناس متخصص در زمینه جرم‌شناسی، در صدد کشف هویت قاتلی برمی‌آیند که از تاکتیک‌های بی‌رحمانه برای به قتل رساندن قربانیان خود استفاده می‌کند و. </p>
+           </div>
+         </div>
+  
+  
+  
+  
+      </article>
+  
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+</body>
+</html>
